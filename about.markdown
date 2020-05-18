@@ -3,7 +3,7 @@ layout: about
 title: Rafael Pereira
 subtitle: BigData Admin
 menubar: true
-hero_image: "/images/IMG_20150327_153613_2.jpg"
+hero_image: "/images/about_snow.jpg"
 callouts: callouts_about
 ---
 

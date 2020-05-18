@@ -5,8 +5,9 @@ subtitle: My experience with the Cloudera Administrator Certification exam, and 
 category: learning
 tags: [certifications, cloudera]
 image: /images/cloudera.jpg
-hide_hero: true
 menubar: true
+time_to_read: true
+hero_image: /images/study.jpg
 ---
 
 # This is a Post about Kafka
