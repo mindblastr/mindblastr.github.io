@@ -1,0 +1,17 @@
+theme: bulma-clean-theme
+
+paginate: 5
+paginate_path: "page:num"
+
+title: Not just an Admin
+
+plugins:
+  - jekyll-time-to-read
+
+description: >- # this means to ignore newlines until "baseurl:"
+  A blog where I share knowledge on the topics I work with or am learning.
+  These topics include: System Administration, BigData, Scripting, Virtualization, etc..
+
+markdown: kramdown
+
+google_analytics: UA-166951037-1

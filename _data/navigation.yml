@@ -1,0 +1,14 @@
+- name: Categories
+  link: /categories
+  dropdown:
+    - name: All
+      link: /categories/all
+    - name: Learning
+      link: /categories/learning
+- name: Tags
+  link: /tags
+  dropdown:
+    - name: All
+      link: /tags/all
+    - name: Cloudera
+      link: /tags/cloudera

@@ -1,0 +1,22 @@
+---
+layout: page
+title: Categories
+subtitle: List of all the available Categories
+show_sidebar: true
+hero_image: "/images/denny-muller-jLjfAWwHdB8-unsplash.jpg"
+---
+<br>
+<div id="archives">
+    {% for category in site.categories %}
+      <div class="archive-group">
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        {% assign description = site.data.category_descriptions[category_name].description %}
+        <div id="#{{ category_name | slugize }}"></div>
+        <p></p>
+        <h3 class="category-head"><a href="{{ site.baseurl | append: "/categories/" | append: category_name | downcase }}">{{ category_name | capitalize }} </a></h3>
+        <p>
+          {{ description }}
+        </p>
+      </div>
+    {% endfor %}
+</div>

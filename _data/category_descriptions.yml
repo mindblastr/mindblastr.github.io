@@ -1,0 +1,16 @@
+sysadmin:
+    description: >
+        Here you can find some knowledge about specific technologies related to system administration, for example how to setup an SSH Server, or how to use Ansible's AdHoc commands. 
+        You might also find some opinion pieces related to said technologies and some experiences I can share about using them.
+snippets:
+    description: >
+        The category I'll use to signal some useful pieces of code I've developed or encountered, usually along with a short explanation.
+bigdata:
+    description: > 
+        I'll try to group here articles that align themselves with BigData Solutions, for example HDFS or Kafka related articles.
+learning:
+    description: >
+        This will be where I post articles where I expose things I've learned, my experience learning things, How To's and general tips and tricks. 
+setups:
+    description: >
+        In this space you'll find articles detailing what I'm using, and why, for my personal setups, from keyboard to terminal emulator, some of these will be accompanied by How To articles. 

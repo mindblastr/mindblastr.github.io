@@ -1,0 +1,22 @@
+style: is-light
+height: is-small
+items:
+  - title: Linkedin
+    icon: fab fa-linkedin
+    description: >
+        For a more resumed version of my experience, visit my Linkedin page.
+    call_to_action_name: Visit
+    call_to_action_link: https://www.linkedin.com/in/rafael-pereira-ba6352a6/
+  - title: GIST
+    icon: fab fa-github
+    description: >
+        For a full overview of my code snippets, follow my GIST.
+    call_to_action_name: View
+    call_to_action_link: https://gist.github.com/mindblastr
+#   - title: GitHub
+#     icon: fab fa-github
+#     description: >
+#         For my GitHub activity, checkout my GitHub profile.
+#         <br>
+#     call_to_action_name: View
+#     call_to_action_link: https://github.com/mindblastr

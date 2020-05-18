@@ -1,0 +1,22 @@
+---
+layout: page
+title: Tags
+subtitle: List of all the available Tags
+show_sidebar: true
+hero_image: "/images/brown-bookmark-1383562.jpg"
+---
+<br>
+<div id="archives">
+    {% for tag in site.tags %}
+      <div class="archive-group">
+        {% capture tag_name %}{{ tag | first }}{% endcapture %}
+        {% assign description = site.data.tag_descriptions[tag_name].description %}
+        <div id="#{{ category_tag | slugize }}"></div>
+        <p></p>
+        <h3 class="tag-head"><a href="{{ site.baseurl | append: "/tags/" | append: tag_name | downcase }}">{{ tag_name | capitalize }} </a></h3>
+        <p>
+          {{ description }}
+        </p>
+      </div>
+    {% endfor %}
+</div>
