@@ -15,3 +15,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 markdown: kramdown
 
 google_analytics: UA-166951037-1
+
+disqus:
+  shortname: notjustanadmin

@@ -1,4 +1,4 @@
-<aside class="menu"	style="position:sticky;top:20%;">
+<aside class="menu"	style="position:sticky;top:10%;max-height:80vh;overflow:auto;">
     {% assign contentsTitle = page.toc_title | default: 'Contents' %}
     {% include toc.html html=content class='menu-list' h_min=2 h_max=3 contents_title=contentsTitle %}
 </aside>

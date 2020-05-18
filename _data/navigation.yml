@@ -10,5 +10,7 @@
   dropdown:
     - name: All
       link: /tags/all
+    - name: Certifications
+      link: /tags/certifications
     - name: Cloudera
       link: /tags/cloudera
