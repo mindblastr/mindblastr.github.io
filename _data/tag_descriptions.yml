@@ -10,3 +10,6 @@ python:
 bash:
     description: >
         Snippets written in Bash or information about Bash in general (libraries, frameworks, etc..) 
+kerberos:
+    description: >
+        Information about working the Kerberos protocol and its implementations

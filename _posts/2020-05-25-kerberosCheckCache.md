@@ -16,7 +16,7 @@ If you have scripts that depend on authenticating with Kerberos and on the ticke
 
 The best practice on this scenario would be to validate that at least you have a valid ticket before executing the rest of your script. 
 
-The most common languages I use for scripting are Bash and Python, so in that sense I'll share bellow 2 pieces of code that verify that you have a valid ticket in the ticket cache in these languages.
+The most common languages I use for scripting are Bash and Python, and I mostly work around CentOS and RHEL, so in that sense I'll share bellow 2 pieces of code that verify that you have a valid ticket in the ticket cache in these languages, with the specific Kerberos implementations available for linux. 
 
 
 ## Python Code
