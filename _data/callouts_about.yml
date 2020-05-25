@@ -2,13 +2,13 @@ style: is-light
 height: is-small
 items:
   - title: Linkedin
-    icon: fab fa-linkedin
+    icon: fa-linkedin
     description: >
         For a more resumed version of my experience, visit my Linkedin page.
     call_to_action_name: Visit
     call_to_action_link: https://www.linkedin.com/in/rafael-pereira-ba6352a6/
   - title: GIST
-    icon: fab fa-github
+    icon: fa-github
     description: >
         For a full overview of my code snippets, follow my GIST.
     call_to_action_name: View
