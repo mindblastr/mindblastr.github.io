@@ -1,22 +1,27 @@
 <div class="card">
-    <div class="card-content">
-        <article class="media">
-            <figure class="media-left">
-                <p class="image is-128x128" style="margin-top: auto; margin-bottom: auto;">
-                  <img src="{{ post.image }}">
-                </p>
-              </figure>
-              <div class="media-content">
-                <div class="content is-medium">
-                  <p>
-                    <strong>{{ post.title }}</strong> <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-                    <br>
-                    <br>
-                    {{ post.subtitle }}
-                  </p>
-              </div>
-        </article>
-    </div>
+        <div class="card-content">
+
+            <article class="media">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                    <figure class="media-left">
+                        <p class="image is-128x128" style="margin-top: auto; margin-bottom: auto;">
+                        <img src="{{ post.image }}">
+                        </p>
+                    </figure>
+                </a>
+                <div class="media-content">
+                    <div class="content is-medium">
+                    <p>
+                        <a href="{{ site.baseurl }}{{ post.url }}">
+                            <strong>{{ post.title }}</strong> <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+                       
+                        <br>
+                        <br>
+                        {{ post.subtitle }}
+                    </p>
+                </div>
+            </article>
+        </div>
     <footer class="card-footer">
         <p class="card-footer-item">
             <small><b>Category:&nbsp;</b> {{ post.categories | join:", " | capitalize }} &nbsp;</small>
