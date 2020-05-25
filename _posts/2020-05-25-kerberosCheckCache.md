@@ -7,7 +7,7 @@ tags: [kerberos, python, bash]
 image: /images/logos/kerberos.jpg
 menubar: true
 time_to_read: true
-hero_image: /images/study.jpg
+hero_image: /images/code2.jpg
 ---
  
 
