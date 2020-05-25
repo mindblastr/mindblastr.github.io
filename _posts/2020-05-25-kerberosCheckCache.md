@@ -5,6 +5,7 @@ subtitle: Code Snippets to check the Kerberos Ticket Cache for a valid Ticket wi
 category: snippets
 tags: [kerberos, python, bash]
 image: /images/logos/kerberos.jpg
+image_alt: /images/logos/kerberos.jpg
 menubar: true
 time_to_read: true
 hero_image: /images/code2.jpg
