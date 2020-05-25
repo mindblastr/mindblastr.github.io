@@ -7,7 +7,8 @@ hide_hero: true
 # List of all the Articles, sorted by Category
 <html>
     <div id="archives">
-    {% for category in site.categories %}
+    {% assign sorted_categories = site.categories | sort %}
+    {% for category in sorted_categories %}
     <div class="archive-group">
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <div id="#{{ category_name | slugize }}"></div>

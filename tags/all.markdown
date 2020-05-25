@@ -7,7 +7,8 @@ hide_hero: true
 # List of all the Articles, sorted by Tag
 <html>
     <div id="archives">
-    {% for tag in site.tags %}
+    {% assign sorted_tags = site.tags | sort %}
+    {% for tag in sorted_tags %}
     <div class="archive-group">
         {% capture tag_name %}{{ tag | first }}{% endcapture %}
         <div id="#{{ tag_name | slugize }}"></div>
