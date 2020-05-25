@@ -1,16 +1,10 @@
 <aside class="contents" style="position:sticky;top:30px;">
     <p class="menu-label">Article Categories</p>
     <ul class="menu-list">
-        {% for category in site.categories %}
+        {% assign sorted_categories = site.categories | sort %}
+        {% for category in sorted_categories %}
         <li>
             <a href="{{ site.baseurl | append: "/categories/" | append: category[0] | downcase }}">{{ category[0] | upcase }}</a>
-            <!-- {% if item.items %}
-            <ul>
-                {% for subitem in item.items %}
-                <li><a href="{{ subitem.link | prepend: site.baseurl }}" class="{% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a></li>
-                {% endfor %}
-            </ul>
-            {% endif %} -->
         </li>
         {% endfor %}    
     </ul>

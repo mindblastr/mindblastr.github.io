@@ -4,7 +4,7 @@ page_tag: kerberos
 hide_hero: true
 ---
 
-# List of all the articles related with the Kerberos Protocol
+# List of all the Articles related with the Kerberos Protocol
 <html>
 <div>
     {% for tag in site.tags %}
