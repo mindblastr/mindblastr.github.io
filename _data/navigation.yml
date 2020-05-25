@@ -12,11 +12,13 @@
   dropdown:
     - name: All
       link: /tags/all
-    - name: Certifications
-      link: /tags/certifications
-    - name: Python
-      link: /tags/python
     - name: Bash
       link: /tags/bash
+    - name: Certifications
+      link: /tags/certifications
     - name: Cloudera
       link: /tags/cloudera
+    - name: Python
+      link: /tags/python
+    - name: Kerberos
+      link: /tags/kerberos
