@@ -4,7 +4,7 @@ sysadmin:
         You might also find some opinion pieces related to said technologies and some experiences I can share about using them.
 snippets:
     description: >
-        The category I'll use to signal some useful pieces of code I've developed or encountered, usually along with a short explanation.
+        The category I'll use to share some useful pieces of code I've developed or encountered, usually along with a short explanation.
 bigdata:
     description: > 
         I'll try to group here articles that align themselves with BigData Solutions, for example HDFS or Kafka related articles.

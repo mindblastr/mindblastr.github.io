@@ -5,6 +5,8 @@
       link: /categories/all
     - name: Learning
       link: /categories/learning
+    - name: Snippets
+      link: /categories/snippets
 - name: Tags
   link: /tags
   dropdown:
@@ -12,5 +14,9 @@
       link: /tags/all
     - name: Certifications
       link: /tags/certifications
+    - name: Python
+      link: /tags/python
+    - name: Bash
+      link: /tags/bash
     - name: Cloudera
       link: /tags/cloudera

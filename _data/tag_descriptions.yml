@@ -4,3 +4,9 @@ certifications:
 cloudera:
     description: >
         General information related to Cloudera technology. 
+python:
+    description: >
+        Snippets written in Python or information about Python in general (libraries, frameworks, etc..)
+bash:
+    description: >
+        Snippets written in Bash or information about Bash in general (libraries, frameworks, etc..) 
